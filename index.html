@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipayyyyyy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <body>
+
+  <!-- Canvas Partikel -->
+  <canvas id="particles"></canvas>
+
+  <div class="container">
+    <h1 class="title">Mayuuuuuuuuuu</h1>
+    ...
+<div class="controls">
+  <input type="text" id="playerName" placeholder="Masukkan nama" maxlength="10">
+<button id="toggleMusic">🔊 Musik</button>
+
+  <select id="difficulty">
+    <option value="easy">Easy 🐢</option>
+    <option value="medium" selected>Medium ⚡</option>
+    <option value="hard">Hard 🔥</option>
+  </select>
+
+  <select id="bgMode">
+    <option value="stars" selected>✨ Bintang</option>
+    <option value="bubbles">🫧 Bubble</option>
+    <option value="galaxy">🌌 Galaksi</option>
+    <option value="none">❌ Tanpa Efek</option>
+  </select>
+
+  <button id="startBtn">Mulai Game</button>
+</div>
+
+
+    <div class="info">
+      <p>⭐ Skor: <span id="score">0</span></p>
+      <p>⏱ Waktu: <span id="time">30</span> detik</p>
+    </div>
+
+    <div id="gameArea"></div>
+
+    <h2 class="subtitle">🏆 Leaderboard Top 5</h2>
+    <ol id="leaderboard"></ol>
+  </div>
+
+  <!-- Audio -->
+  <audio id="clickSound" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg"></audio>
+  <audio id="endSound" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg"></audio>
+  <audio id="spaceAudio" loop>
+    <source src="sounds/space-ambient.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
